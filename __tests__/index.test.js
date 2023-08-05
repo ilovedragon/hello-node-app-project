@@ -1,7 +1,7 @@
 // index.test.js (Jest test file)
 
 const request = require('supertest');
-const app = require('../index'); // Assuming the Express app code is in a file named 'index.js'
+const app = require('../../../index'); // Assuming the Express app code is in a file named 'index.js'
 
 // Jest test cases
 describe('Test API Endpoints', () => {
